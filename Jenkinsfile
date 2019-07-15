@@ -8,7 +8,9 @@ pipeline {
     stages {
         stage ('test') {
           steps {
-            echo 'hello'
+           
+			echo "flag: ${params.userFlag}"
+			echo "Region : ${params.region}"
           }
         
     }
