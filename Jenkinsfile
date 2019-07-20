@@ -1,3 +1,12 @@
 @Library('my-shared-library') _
 
-deployApplication([build : "Build REC ENV", test : "TEST REC ENV", deploy : "depoy REC ENV"])
+deployApplication([
+appname : "book" ,
+Repository :  "https://github.com/ely75/work.git",
+DeployEnv: [
+		val: [ name : 'recette validation', deploy: true ],
+		rec: [ name : 'recette projet', deploy: false ],
+		preprod: [ name : 'recette preprod', deploy: false  ]
+	]
+
+ ])
