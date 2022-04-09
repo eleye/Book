@@ -1,1 +1,2 @@
-C'est le alter2 sur le fichier conrection2.
+C'est le maj2.
+sur le fichier contenant corectif2.
