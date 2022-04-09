@@ -1,2 +1,2 @@
-C'est le corectif2.
-sur le fichier corectif2.
+C'est le maj2.
+sur le fichier contenant corectif2.
